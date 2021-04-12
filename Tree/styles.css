@@ -1,0 +1,51 @@
+body {
+    margin: 0;  
+    background-size: cover;
+    background-image: url(donkey.jpg);
+}
+
+section {
+    height: 70px; 
+    background-color: #483D8B;
+    text-align: center;
+    padding-top: 1px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+ul {
+    height: 40px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #191970;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 11px;
+    text-decoration: none;
+   
+}
+
+li a:hover {
+    transition: .3s; 
+    background-color: #2424A0;
+
+}
+
+li.special {
+    background-color: #000032;
+}
+
+.imageparagraph {
+    text-align: center; 
+    color: aliceblue;
+    align-content: center;
+    font-family: fantasy; 

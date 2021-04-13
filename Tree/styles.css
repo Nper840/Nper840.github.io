@@ -1,12 +1,12 @@
 body {
     margin: 0;  
     background-size: cover;
-    background-image: url(donkey.jpg);
+    background-image: url(donkey3.jpg);
 }
 
 section {
     height: 70px; 
-    background-color: #483D8B;
+    background-color: clear;
     text-align: center;
     padding-top: 1px;
     font-size: 20px;
@@ -17,8 +17,8 @@ ul {
     height: 40px;
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    background-color: #191970;
+    padding: 10px;
+    background-color: clear;
 }
 
 li {
@@ -48,4 +48,5 @@ li.special {
     text-align: center; 
     color: aliceblue;
     align-content: center;
-    font-family: fantasy; 
+    font-family: fantasy;
+}

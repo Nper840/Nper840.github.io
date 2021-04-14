@@ -1,15 +1,15 @@
 section {
-    height: 80px; 
+    height: 60px; 
     background-color: #483D8B;
     text-align: center;
-    padding-top: ;
-    font-size: 20px;
+    padding: px;
+    font-size: 15px;
     float: left;
     width: 20%;
 }
 
 ul {
-    height: 80px;
+    height: 60px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -26,7 +26,7 @@ li a {
     display: block;
     color: aliceblue;
     text-align: center;
-    padding: 31px;
+    padding: 20px;
     text-decoration: none;
 }
 
@@ -38,4 +38,5 @@ li a:hover {
 
 li.special {
     background-color: #000032;
+    height: 60px;
 }

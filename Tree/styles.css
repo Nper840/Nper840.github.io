@@ -49,5 +49,25 @@ li.special {
     text-align: center; 
     color: aliceblue;
     align-content: center;
-    font-family: fantasy;
+    font-family: inherit;
+    margin: 80px;
+    margin-top: 40px;
 }
+
+.header {
+    height: 40px;
+    background-color: #ACACAC;
+    width: 100%;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.header2 {
+    height: 40px;
+    background-color: #ACACAC;
+    width: 100%;
+    font-size: 20px;   
+}
+
+

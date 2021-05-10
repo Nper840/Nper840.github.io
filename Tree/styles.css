@@ -11,6 +11,8 @@ section {
     padding-top: 1px;
     font-size: 20px;
     color: aliceblue;
+    min-height: 70px;
+    
 }
 
 ul {
@@ -20,6 +22,7 @@ ul {
     padding-left: 0px;
     background-color: #191970;
     width:100%;
+    min-height: 40px;
 }
 
 li {
@@ -41,6 +44,10 @@ li a:hover {
 
 }
 
+.active {
+    background-color: #000032;
+}
+
 li.special {
     background-color: #000032;
 }
@@ -55,19 +62,42 @@ li.special {
 }
 
 .header {
-    height: 40px;
+    height: 30px;
     background-color: #ACACAC;
     width: 100%;
     font-size: 20px;
-    padding: 0;
-    margin: 0;
+    padding-top: 10px;
+    min-height: 30px;
 }
 
 .header2 {
-    height: 40px;
+    height: 30px;
     background-color: #ACACAC;
     width: 100%;
-    font-size: 20px;   
+    font-size: 20px;
+    padding-top: 10px;
+    min-height: 30px;
 }
+
+.imageparagraph1 {
+    text-align: left; 
+    color: aliceblue;
+    align-content: center;
+    font-family: inherit;
+    margin: 80px;
+    margin-top: 40px;
+}
+
+.imageparagraph2 {
+    text-align: right; 
+    color: aliceblue;
+    align-content: center;
+    font-family: inherit;
+    margin: 80px;
+    margin-top: 40px;
+}
+}
+
+
 
 

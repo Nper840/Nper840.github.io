@@ -9,8 +9,10 @@ section {
     background-color: #483D8B;
     text-align: center;
     padding-top: 1px;
+    padding-bottom: 1px;
     font-size: 20px;
     color: aliceblue;
+    font-family: fantasy;
     min-height: 70px;
     
 }
@@ -33,7 +35,8 @@ li a {
     display: block;
     color: aliceblue;
     text-align: center;
-    padding: 11px;
+    font-family: fantasy;
+    padding: 10px;
     text-decoration: none;
    
 }
@@ -41,7 +44,6 @@ li a {
 li a:hover {
     transition: .3s; 
     background-color: #2424A0;
-
 }
 
 .active {
@@ -65,6 +67,7 @@ li.special {
     height: 30px;
     background-color: #ACACAC;
     width: 100%;
+    color: aliceblue;
     font-size: 20px;
     padding-top: 10px;
     min-height: 30px;
@@ -74,6 +77,7 @@ li.special {
     height: 30px;
     background-color: #ACACAC;
     width: 100%;
+    color: aliceblue;
     font-size: 20px;
     padding-top: 10px;
     min-height: 30px;
@@ -95,7 +99,6 @@ li.special {
     font-family: inherit;
     margin: 80px;
     margin-top: 40px;
-}
 }
 
 

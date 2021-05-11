@@ -18,13 +18,12 @@ section {
 }
 
 ul {
-    height: 40px;
+    height: 38px;
     list-style-type: none;
     margin: 0;
     padding-left: 0px;
     background-color: #191970;
     width:100%;
-    min-height: 40px;
 }
 
 li {
@@ -44,15 +43,14 @@ li a {
 li a:hover {
     transition: .3s; 
     background-color: #2424A0;
+    padding-bottom: 9px;
 }
 
 .active {
     background-color: #000032;
+    padding-bottom: 9px;
 }
 
-li.special {
-    background-color: #000032;
-}
 
 .imageparagraph {
     text-align: center; 
